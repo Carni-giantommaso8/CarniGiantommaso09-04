@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet">
+</head>
+
+<body>
+    <div class = "container">
+        <h1>Modifica il tuo profilo </h1>
+        <form action="/aggiungi" method="post">
+            <p>Nome : 
+            <input type="text" id="nome" name="Nome"required></p>
+            <p>Cognome : 
+                <input type="text" id="cognome" name="Cognome"required></p>
+            <p>Scuola : 
+                <input type="text" id="scuola" name="Scuola"required></p>
+            <p>Hobby : 
+                <input type="text" id="hobby" name="Hobby"required></p>
+                
+                <button type="submit">Aggiungi</button>
+                <br></br>
+        </form>
+        <a href="/">Torna al profilo</a>
+</body>
+
+<style>
+body{ 
+    background-color: rgb(255, 188, 88);
+}
+h1{ 
+    font-size : 30px;
+    font-style: oblique;
+}
+a{ 
+    font-size : 30px;
+    font-style: oblique;
+    color: black;
+}
+li{ 
+    font-size : 30px;
+    font-style: oblique;
+}
+p{ 
+    font-size : 30px;
+    font-style: oblique;
+}
+input{ 
+    font-size : 20px;
+    font-style: oblique;
+    margin-right: 15px;
+}
+button{
+    border-radius: 20px;
+    border-color: orange ;
+    width: 140px;
+    height: 50px;
+    color: rgb(100, 5, 5);
+    background-color: white;
+    font-size: 30px;
+    margin-top: 5px;
+    font-style: oblique;
+    transition: all 0,2 ease;
+}
+button:hover{
+    background-color: #edecec;
+    transform: scale(1.04);
+}
+.container {
+    text-align: center;
+    width: 500px;
+    max-width: 500px;
+    height: 600px;
+    max-height: 1000px;
+    margin: auto;
+    border: 2px solid #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+}
+</style>
+
+</html>
